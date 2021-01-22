@@ -1,12 +1,12 @@
 "use strict";
 (function () {
-    function bievenido(nombre, apellido, edad) {
-        console.table('Hi good afternoon.. ' + nombre + ' ' + apellido + 'y tengo ' + edad + 'años'); // 
+    var mensajes = 'Hola mundo !!';
+    var mensaje2 = 'Soy el presidente';
+    var URL_DESCRIPT = 'Me llamo Donald';
+    if (true) {
+        var mensajes_1 = 'Como estan ?';
+        mensaje2 = 'Obama es el presidente de USA';
     }
-    var datos = {
-        nombre: 'Henrry',
-        apellido: 'Orbezo',
-        edad: 18
-    };
-    bievenido(datos.nombre, datos.apellido, datos.edad);
+    console.log(mensajes, mensaje2);
+    console.log(URL_DESCRIPT);
 })();

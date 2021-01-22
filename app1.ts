@@ -1,17 +1,18 @@
 (function(){
-function bievenido( nombre: string , apellido:string , edad:number ) {
-    console.table( 'Hi good afternoon.. ' + nombre +  ' ' + apellido + 'y tengo ' + edad +   'años' ); // 
-}
+    let mensajes = 'Hola mundo !!';
+    var mensaje2 = 'Soy el presidente'
+    const URL_DESCRIPT = 'Me llamo Donald';
+
+    if(true) { 
+        let   mensajes ='Como estan ?';
+        mensaje2 = 'Obama es el presidente de USA';
+    }
+
+    console.log(mensajes , mensaje2);
+    console.log(URL_DESCRIPT);
 
 
-const datos = {
-    nombre: 'Henrry',
-    apellido: 'Orbezo',
-    edad: 18
-};
 
-
-bievenido( datos.nombre , datos.apellido , datos.edad  );
 })();
 
 
